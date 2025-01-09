@@ -42,7 +42,7 @@ Para insertar datos para probar podemos ayudarnos de la siguiente Query:
 ```
 ## Ejecutar Back-end
 
-Es importante que antes de ejecutar el Back-end debemos validar que las credenciales de acceso la base de datos sean las correctas, para eso abrimos la carpeta llamada api_prueba, iremos a la carpeta config y editaremos el archivo dbconfig. El cual contiene esta sección de código:
+Es importante que antes de ejecutar el Back-end debemos validar que las credenciales de acceso la base de datos sean las correctas, para eso abrimos la carpeta del proyecto, iremos a la carpeta config y editaremos el archivo dbconfig. El cual contiene esta sección de código:
 
 ```php
   const pool = new Pool({
@@ -55,7 +55,7 @@ Es importante que antes de ejecutar el Back-end debemos validar que las credenci
 ```
 Cambiaremos los datos que contengan el asterisco por los datos correspondientes a nuestra configuración.
 
-Vamos a abrir una terminal ubicados dentro de la carpeta llamada api_prueba y vamos a Ejecutar:
+Vamos a abrir una terminal ubicados dentro de la carpeta del proyecto y vamos a Ejecutar:
 
 ```bash
   node index.js
